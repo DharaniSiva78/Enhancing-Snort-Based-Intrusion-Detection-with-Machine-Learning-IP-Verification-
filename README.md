@@ -1,1 +1,34 @@
-# Enhancing-Snort-Based-Intrusion-Detection-with-Machine-Learning-IP-Verification-
+<img width="1553" height="744" alt="image" src="https://github.com/user-attachments/assets/675eb6bd-1037-43bb-b584-89bc74cc97fb" /><img width="1674" height="792" alt="image" src="https://github.com/user-attachments/assets/cc826d12-6643-46f9-94ba-cffcf3c594a9" /># Enhancing-Snort-Based-Intrusion-Detection-with-Machine-Learning-IP-Verification
+
+A hybrid IDS that combines **Snort's** rule-based detection with **machine learning** (Random Forest & XGBoost) to verify alerts, cut false positives, and classify network traffic as **Benign** or **Malicious** in real time — served through a Flask web app.
+
+![Uploading image.png…]()
+
+
+## Features
+- Hybrid Snort + ML detection pipeline
+- Random Forest & XGBoost classifiers trained on the CICIDS 2017 Balanced Dataset
+- Flask web interface: upload a Snort log CSV → get an instant classification
+- False positive rate reduced from ~18% to ~5%
+
+## Results
+
+| Model | Accuracy | Precision | Recall | F1-Score |
+|-------|:--:|:--:|:--:|:--:|
+| Random Forest | 94.33% | 93.80% | 94.10% | 94.00% |
+| **XGBoost** | **95.45%** | **95.00%** | **95.30%** | **95.25%** |
+
+## Project Structure
+```
+snort_webapp/
+├── app.py                 # Flask app
+├── templates/              # a.html (upload), result.html (output)
+├── training/                # ll.py (train), evaluate_and_plot.py (metrics)
+├── model/                    # Saved .joblib model artifacts
+└── requirements.txt
+```
+
+
+## Tech Stack
+Python · Flask · Scikit-learn · XGBoost · Pandas · Snort · CICIDS 2017 Dataset
+
