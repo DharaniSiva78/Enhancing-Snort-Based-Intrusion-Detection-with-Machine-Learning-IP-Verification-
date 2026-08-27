@@ -29,9 +29,9 @@ snort_webapp/
 ## Tech Stack
 Python · Flask · Scikit-learn · XGBoost · Pandas · Snort · CICIDS 2017 Dataset
 
-<img width="1674" height="792" alt="image" src="https://github.com/user-attachments/assets/c2d01734-f15d-4726-ae4a-3dedcdceb0ba" />
+<img width="750" height="400" alt="image" src="https://github.com/user-attachments/assets/c2d01734-f15d-4726-ae4a-3dedcdceb0ba" />
 
-<img width="1553" height="744" alt="image" src="https://github.com/user-attachments/assets/8c32e742-9b8e-41d9-9134-ca3dd3d571d3" />
+<img width="750" height="400" alt="image" src="https://github.com/user-attachments/assets/8c32e742-9b8e-41d9-9134-ca3dd3d571d3" />
 
 <img width="487" height="271" alt="image" src="https://github.com/user-attachments/assets/fd2de02c-2639-4148-802f-cf22486a57b7" />
 
