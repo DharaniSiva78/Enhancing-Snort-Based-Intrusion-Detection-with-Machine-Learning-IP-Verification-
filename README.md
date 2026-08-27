@@ -1,8 +1,10 @@
-<img width="1553" height="744" alt="image" src="https://github.com/user-attachments/assets/675eb6bd-1037-43bb-b584-89bc74cc97fb" /><img width="1674" height="792" alt="image" src="https://github.com/user-attachments/assets/cc826d12-6643-46f9-94ba-cffcf3c594a9" /># Enhancing-Snort-Based-Intrusion-Detection-with-Machine-Learning-IP-Verification
+# Enhancing-Snort-Based-Intrusion-Detection-with-Machine-Learning-IP-Verification
 
 A hybrid IDS that combines **Snort's** rule-based detection with **machine learning** (Random Forest & XGBoost) to verify alerts, cut false positives, and classify network traffic as **Benign** or **Malicious** in real time — served through a Flask web app.
 
-![Uploading image.png…]()
+
+
+
 
 
 ## Features
