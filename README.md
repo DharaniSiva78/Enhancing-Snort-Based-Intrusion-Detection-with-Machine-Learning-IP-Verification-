@@ -2,6 +2,18 @@
 
 A hybrid IDS that combines **Snort's** rule-based detection with **machine learning** (Random Forest & XGBoost) to verify alerts, cut false positives, and classify network traffic as **Benign** or **Malicious** in real time — served through a Flask web app.
 
+<img width="750" height="400" alt="image" src="https://github.com/user-attachments/assets/c2d01734-f15d-4726-ae4a-3dedcdceb0ba" />
+
+<img width="750" height="400" alt="image" src="https://github.com/user-attachments/assets/8c32e742-9b8e-41d9-9134-ca3dd3d571d3" />
+
+<img width="503" height="237" alt="image" src="https://github.com/user-attachments/assets/fd2de02c-2639-4148-802f-cf22486a57b7" />
+
+<img width="503" height="237" alt="image" src="https://github.com/user-attachments/assets/020b490f-8cc5-4e83-9193-08fcb030f050" />
+
+<img width="412" height="287" alt="image" src="https://github.com/user-attachments/assets/449e351d-23ff-4803-9d69-8c625ff7aa45" />
+
+<img width="412" height="287" alt="image" src="https://github.com/user-attachments/assets/a0c8deb5-e1d4-45d7-8d76-25162122a95a" />
+
 ## Features
 - Hybrid Snort + ML detection pipeline
 - Random Forest & XGBoost classifiers trained on the CICIDS 2017 Balanced Dataset
